@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  mongodb_global:
+    image: mongo:latest
+    container_name: schoolpost_global
+    restart: always
+    ports:
+      - 27018:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGODB_GLOBAL_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGODB_GLOBAL_PASSWORD}
+    volumes:
+      - c:\Wamp.NET\sites\schoolpost\databases\global:/data/db
+
+  mongodb:
+    image: mongo:latest
+    container_name: schoolpost_publications
+    restart: always
+    ports:
+      - 27017:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGODB_USERNAME}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGODB_PASSWORD}
+    volumes:
+      - c:\Wamp.NET\sites\schoolpost\databases\publications:/data/db

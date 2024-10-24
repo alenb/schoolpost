@@ -1,0 +1,26 @@
+$backgroundDefault: #f5f5f5;
+$primaryMain: #43BBE8;
+$secondaryMain: #43BBE8;
+
+$fontSize: 16;
+$h1FontSize: 2.5em;
+$h2FontSize: 1.5em;
+$h3FontSize: 1.25em;
+$h4FontSize: 1.125em;
+
+$muiSelected: #F3F8FB;
+
+:export {
+  backgroundDefault: $backgroundDefault;
+  primaryMain: $primaryMain;
+  secondaryMain: $secondaryMain;
+
+  fontSize: $fontSize;
+
+  h1FontSize: $h1FontSize;
+  h2FontSize: $h2FontSize;
+  h3FontSize: $h3FontSize;
+  h4FontSize: $h4FontSize;
+
+  muiSelected: $muiSelected;
+}

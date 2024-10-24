@@ -1,6 +1,6 @@
 # 📰 School Post *(Newsletter Builder)*
 _Build and design custom newsletters effortlessly!_  
-*(Next.js, Redux, MongoDB, GrapesJS, Material UI)*
+*(Next.js, Redux, MongoDB, Docker, GrapesJS, Material UI)*
 
 ---
 

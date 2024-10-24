@@ -1,0 +1,17 @@
+# Environment variables
+.env.local
+
+# Node modules
+node_modules/
+package-lock.json
+
+# Logs
+logs
+*.log
+
+# Ignore build outputs
+.next/
+out/
+
+# Ignore databases
+databases/
